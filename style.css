@@ -1,0 +1,106 @@
+.banner img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+
+.banner {
+	background-color: #070b4a;
+  	padding: 0px;
+ 	width: 79%;
+    box-shadow: none;
+}
+
+
+body{
+	font-family: 'Overpass', sans-serif;
+	background-color: #070b4a;
+}
+
+div {
+  background-color: #f6f1e3;
+  text-align: center;
+  margin: 16px auto;
+  padding: 25px;
+  width: 75%;
+  border-radius: 5px;
+  box-shadow: 2px 1px 14px 1px #000000b3;
+}
+
+p{
+	color:#070b4a;
+}
+
+h1{
+	color: #7f60b1;
+	font-size: 30px;
+	font-family: 'Overpass', sans-serif;
+}
+
+h2,h3{
+	color:#070b4a;
+	font-family: 'Overpass', sans-serif;
+}
+
+li{
+	color:#070b4a;
+}
+
+.countries {
+	display:  flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3px;
+  text-align: center;
+  width: 75%;
+}
+.country img {
+  height:  125px;
+  object-fit: cover;
+  width:100%;
+}
+
+.country{
+	width: 50%;
+	margin: auto;
+}
+
+summary{
+	text-align: center;
+}
+.skills{
+	color:#070b4a;
+	text-align: left;
+}
+
+
+.interests {
+  display:  run-in;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+.interest img {
+  width: 100%;
+  height:  200px;
+  object-fit: cover;
+}
+
+
+footer{
+	background-color: #070b4a;
+	color:#f6f1e3;
+	text-align:center;
+	padding: 10px 10px;
+	display:block;
+}
+
+.linkedin{
+	background-color: #070b4a;
+	box-shadow: none;
+	padding: 5px 10px;
+}
+
+.linkedin img{
+	width: 40px;
+	height: 40px;
+}
+
